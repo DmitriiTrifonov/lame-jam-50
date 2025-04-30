@@ -1,0 +1,5 @@
+OUTPUT=lame-jam-50.pdx
+SOURCE=src
+
+build:
+	${PLAYDATE_COMPILER_LOCATION}/pdc ${SOURCE} ${OUTPUT}
